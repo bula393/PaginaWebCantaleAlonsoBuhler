@@ -7,6 +7,6 @@ header{
     margin: 0;
 }
 .carousel-item {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
