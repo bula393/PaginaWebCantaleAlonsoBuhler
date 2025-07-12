@@ -6,3 +6,8 @@
 header{
     margin: 0;
 }
+.d-block.w-50 {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
