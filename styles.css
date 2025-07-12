@@ -6,8 +6,7 @@
 header{
     margin: 0;
 }
-.d-block.w-50 {
-    display: block;
+.carousel-item {
     max-width: 50%;
     height: 50%;
 }
