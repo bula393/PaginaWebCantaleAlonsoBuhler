@@ -6,7 +6,10 @@
 header{
     margin: 0;
 }
-.carousel-item {
-    max-width: 40%;
-    height: auto;
+
+
+@media (max-width: 768px) {
+    .responsive {
+        display: none;
+    }
 }
