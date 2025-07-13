@@ -6,10 +6,36 @@
 header{
     margin: 0;
 }
-
+.footer{
+    background-color: black;
+    color: white;
+}
+.SUPERPUESTO{
+    position: absolute;
+    width: 50% !important   ;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.318);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
-    .responsive {
+    .vacio {
         display: none;
     }
+    .align-items-center {
+        display: flex !important;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .row{
+        width: 70%;
+}
 }
