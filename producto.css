@@ -12,6 +12,26 @@
 .WHITE{
     color: white !important;
 }
-.Description {
-    
+.dark{
+    background-color: black;
+}
+
+.iconright {
+    background-image: url('/imagenes/avcc910c4ee5888b858fe.png') !important;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+}
+
+.iconleft {
+    background-image: url('/imagenes/izquierda.png') !important;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
 }

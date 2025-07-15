@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="producto.css">
+    <title>AMD Ryzen 7 5700G - Detalle del Producto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid header">
+            <img src="/imagenes/logo.png" class="logo" alt="Logo de la tienda" style="height:40px; width:auto;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Procesadores</a></li>
+                  <li><a class="dropdown-item" href="#">Placas de Video</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Memorias RAM</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
+      <section id="producto">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/imagenes/amd7-5700rz.jpg" class="img-fluid w-100" alt="AMD Ryzen 7 5700G">
+                </div>
+                <div class="col-md-6">
+                    <h1>Procesador: AMD Ryzen 7 5700G</h1>
+                    <h2>$309.99</h2>
+                    <p>El AMD Ryzen 7 5700G es un potente procesador con gráficos integrados Radeon, ideal para gaming ligero y productividad sin necesidad de una tarjeta gráfica dedicada. Ofrece un excelente rendimiento multi-núcleo para tus tareas diarias.</p>
+
+                    <hr class="my-4">
+
+                    <div class="accordion accordion-color:dark " id="accordion">
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark border-bottom border-body text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Especificaciones
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show bg-dark border-bottom border-body text-white" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><strong>Núcleos/Hilos:</strong> 8 Núcleos / 16 Hilos</li>
+                                    <li><strong>Frecuencia Base/Boost:</strong> 3.8 GHz / 4.6 GHz</li>
+                                    <li><strong>Gráficos Integrados:</strong> Radeon Graphics (8 núcleos, 2000 MHz)</li>
+                                    <li><strong>Socket:</strong> AM4</li>
+                                    <li><strong>TDP:</strong> 65W</li>
+                                    <li><strong>Caché Total L3:</strong> 16 MB</li>
+                                    <li><strong>Tecnología de Fabricación:</strong> 7nm FinFET</li>
+                                    <li><strong>Soporte de Memoria:</strong> DDR4-3200</li>
+                                    <li><strong>Incluye Disipador:</strong> Sí (Wraith Stealth)</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <button type="button" class="btn btn-primary bg-dark border-bottom border-body">comprar</button>
+                    <hr class="my-4">
+                    <h4>Comentarios</h4>
+                    <form action="productoBasico.html">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Dirección de Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" class="btn btn-primary bg-dark border-bottom border-body" value="Enviar Comentario">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <h2 class="text-center mt-5">Productos relacionados</h2>
+            <div id="cardCarousel" class="carousel slide my-4" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex justify-content-center">
+                      <div class="card" style="width: 16rem;">
+                        <img src="imagenes/amd5rz.jpeg" class="card-img-top" alt="AMD Ryzen 5 5600G">
+                        <div class="card-body">
+                          <h5 class="card-title">AMD Ryzen 5 5600G</h5>
+                          <p class="card-text">Una opción económica con gráficos integrados.</p>
+                          <a href="#" class="btn btn-primary bg-dark">Ver Producto</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex justify-content-center">
+                      <div class="card" style="width: 16rem;">
+                        <img src="imagenes/AM4-B550.jpg" class="card-img-top" alt="Placa Madre AM4">
+                        <div class="card-body">
+                          <h5 class="card-title">Placa Madre AM4 B550</h5>
+                          <p class="card-text">Soporte completo para procesadores Ryzen.</p>
+                          <a href="#" class="btn btn-primary bg-dark">Ver Producto</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex justify-content-center">
+                      <div class="card" style="width: 16rem;">
+                        <img src="imagenes/amd7-5800rz.jpg" class="card-img-top" alt="AMD Ryzen 7 5800X3D">
+                        <div class="card-body">
+                          <h5 class="card-title">AMD Ryzen 7 5800X3D</h5>
+                          <p class="card-text">Máximo rendimiento gaming sin gráficos integrados.</p>
+                          <a href="#" class="btn btn-primary bg-dark">Ver Producto</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex justify-content-center">
+                      <div class="card" style="width: 16rem;">
+                        <img src="imagenes/Memoria-RAM.jpeg" class="card-img-top" alt="Memoria RAM DDR4">
+                        <div class="card-body">
+                          <h5 class="card-title">RAM DDR4 16GB Fury</h5>
+                          <p class="card-text">Ideal para complementar tu nuevo procesador Ryzen.</p>
+                          <a href="#" class="btn btn-primary bg-dark">Ver Producto</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon iconleft" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon iconright" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </section>
+  <footer class="py-5 footer-dark bg-dark border-bottom border-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Navegación</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Productos</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Ofertas</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Sobre Nosotros</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Soporte</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Contacto</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Devoluciones</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Envíos</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Garantía</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Términos y Condiciones</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Mi Cuenta</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Mi Perfil</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Mis Pedidos</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Lista de Deseos</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white-50">Carrito</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Suscríbete a nuestro boletín</h5>
+            <p>Recibe las últimas noticias y ofertas directamente en tu bandeja de entrada.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email</label>
+              <input id="newsletter1" type="email" class="form-control" placeholder="Dirección de email">
+              <button class="btn btn-primary bg-white text-dark" type="button">Suscribirse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p class="text-white-50">© 2025 Tu Tienda de Tecnología. Todos los derechos reservados.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="link-body-emphasis" href="#" aria-label="Instagram">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="#instagram"></use>
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.269.087 3.85.048 4.703.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.297-.048c.852-.04 1.433-.174 1.942-.372a3.917 3.917 0 0 0 1.417-.923 3.927 3.927 0 0 0 .923-1.417c.198-.51.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.297c-.04-.852-.174-1.433-.372-1.942a3.917 3.917 0 0 0-.923-1.417A3.927 3.927 0 0 0 13.24 0.42C12.731.222 12.15.087 11.297.048C10.445.01 10.173 0 8 0zm0 1.5c2.14 0 2.37.01 3.2.048.77.036 1.25.16 1.5.25.24.09.43.19.64.4.21.21.31.4.4.64.09.25.21.73.25 1.5.04 0.83.04 1.06.04 3.2s0 2.37-.04 3.2c-.036.77-.16 1.25-.25 1.5-.09.24-.19.43-.4.64-.21.21-.4.31-.64.4-.25.09-.73.21-1.5.25-0.83.04-1.06.04-3.2.04s-2.37 0-3.2-.04c-.77-.036-1.25-.16-1.5-.25-.24-.09-.43-.19-.64-.4-.21-.21-.31-.4-.4-.64-.09-.25-.21-.73-.25-1.5-.04-.83-.04-1.06-.04-3.2s0-2.37.04-3.2c.036-.77.16-1.25.25-1.5.09-.24.19-.43.4-.64.21-.21.4-.31.64-.4.25-.09.73-.21 1.5-.25C5.63 1.5 5.86 1.5 8 1.5zM8 4a4 0 1 0 0 8 4 4 0 0 0 0-8zm0 1.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="link-body-emphasis" href="#" aria-label="Facebook">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="#facebook"></use>
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.01 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.953H10.518c-.994 0-1.305.624-1.305 1.24v1.51h2.218l-.354 2.326H9.217V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
