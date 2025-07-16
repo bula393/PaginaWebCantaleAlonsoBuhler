@@ -40,7 +40,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 568px) {
     .vacio {
         display: none;
     }
@@ -49,11 +49,5 @@ header{
         align-items: center;
         justify-content: center !important;
     }
-    .row{
-        width: 70%;
-}
-}
-.active{
-    display: flex !important;
-justify-content: center;
+
 }
