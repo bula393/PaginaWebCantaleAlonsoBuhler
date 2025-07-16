@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <title></title>
+    <title>Tienda de Componentes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <section>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid header">
-            <img src="imagenes/logo.png" class="logo" alt="" style="height:40px; width:auto;">
+            <img src="imagenes/logo.png" class="logo" alt="Logo de la tienda" style="height:40px; width:auto;">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,7 +23,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
               </li>
-                <li class="nav-item dropdown"></li>
+                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Categorias
                 </a>
@@ -38,29 +38,7 @@
                   <li><a class="dropdown-item" href="categorias.html">Mouse</a></li>
                 </ul>
                 </li>
-                <style>
-                /* Responsive carousel cards */
-                @media (max-width: 991.98px) {
-                  .carousel .carousel-inner .row {
-                  flex-direction: column;
-                  }
-                  .carousel .carousel-inner .col-md-4,
-                  .carousel .carousel-inner .col-md-3,
-                  .carousel .carousel-inner .col-md-9 {
-                  flex: 0 0 100%;
-                  max-width: 100%;
-                  }
-                }
-                @media (max-width: 575.98px) {
-                  .carousel .card img {
-                  height: 180px;
-                  object-fit: cover;
-                  }
-                  .carousel .card {
-                  margin-bottom: 1rem;
-                  }
-                }
-                </style>
+            
               <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
@@ -73,33 +51,31 @@
         </div>
       </nav>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    </section>  
+    </section>   
     <section id="redragon">
-          <div class="container my-5 align-items-center">
+        <div class="container my-5 align-items-center">
             <div class="row align-items-center">
               <div class="col-md-3 mb-3">
                   <div class="card image" style="width: 100%;">
-                    <img src="imagenes/redragon.webp" class="card-img-top" alt="...">
-                  <img src="imagenes/redragon.webp" class="card-img-top SUPERPUESTO" alt="...">
+                    <img src="imagenes/redragon.webp" class="card-img-top" alt="Logo Redragon">
+                  <img src="imagenes/redragon.webp" class="card-img-top SUPERPUESTO" alt="Logo Redragon superpuesto">
                 </div>
               </div>
               <div class="col-md-9">
                 <div class="container mt-5 position-relative">
                   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     
-                    <!-- Indicadores -->
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
 
-                      <!-- Slide 1 -->
                       <div class="carousel-item active" data-bs-interval="5000">
                         <div class="row">
-                          <div class="col-md-4 mb-3">
+                          <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="Teclado Redragon Kumara K552">
                               <div class="card-body">
                                 <h5 class="card-title">Redragon Kumara K552</h5>
                                 <p class="card-text">Teclado mecánico compacto con switches Red y retroiluminación RGB.</p>
@@ -107,9 +83,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb2.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb2.jpg" class="card-img-top" alt="Mouse Redragon M808 Storm">
                               <div class="card-body">
                                 <h5 class="card-title">Redragon M808 Storm</h5>
                                 <p class="card-text">Mouse ultraliviano con diseño panal y sensor óptico de alta precisión.</p>
@@ -117,9 +93,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb3.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb3.jpg" class="card-img-top" alt="Auriculares Redragon Shaco RGB">
                               <div class="card-body">
                                 <h5 class="card-title">Redragon Shaco RGB</h5>
                                 <p class="card-text">Auriculares con sonido envolvente 7.1 y micrófono retráctil.</p>
@@ -130,12 +106,11 @@
                         </div>
                       </div>
 
-                      <!-- Slide 2 -->
                       <div class="carousel-item" data-bs-interval="5000">
                         <div class="row">
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb4.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb4.jpg" class="card-img-top" alt="Teclado Redragon Horus TKL">
                               <div class="card-body">
                                 <h5 class="card-title">Redragon Horus TKL</h5>
                                 <p class="card-text">Teclado inalámbrico 60% con teclas programables y batería de larga duración.</p>
@@ -143,9 +118,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb5.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb5.jpg" class="card-img-top" alt="Auriculares Redragon Lamia 2">
                               <div class="card-body">
                                 <h5 class="card-title">Redragon Lamia 2</h5>
                                 <p class="card-text">Auriculares RGB con soporte metálico y drivers de 50mm para gaming.</p>
@@ -153,9 +128,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb6.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb6.jpg" class="card-img-top" alt="Mouse Redragon M607 Griffin">
                               <div class="card-body">
                                 <h5 class="card-title">Redragon M607 Griffin</h5>
                                 <p class="card-text">Mouse gamer ergonómico con DPI ajustable hasta 7200.</p>
@@ -167,42 +142,38 @@
                       </div>
                     </div>
                   </div>
-                </div>         
+                </div>        
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-      </section>
+    </section>
         <section id="nvidia">
           <div class="container my-5 align-items-center">
             <div class="row align-items-center">
               <div class="col-md-3 mb-3">
                     <div class="card image" style="width: 100%;">
-                      <img src="imagenes/nvidia.jpg" class="card-img-top" alt="...">
-                      <img src="imagenes/nvidia.jpg" class="card-img-top SUPERPUESTO" alt="...">
+                      <img src="imagenes/nvidia.jpg" class="card-img-top" alt="Logo Nvidia">
+                      <img src="imagenes/nvidia.jpg" class="card-img-top SUPERPUESTO" alt="Logo Nvidia superpuesto">
                     </div>
                   </div>
               <div class="col-md-9">
                 <div class="container mt-5 position-relative">
                   <div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     
-                    <!-- Indicadores -->
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
 
-                      <!-- Slide 1 -->
                       <div class="carousel-item active" data-bs-interval="5000">
                         <div class="row">
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb5.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb5.jpg" class="card-img-top" alt="GeForce RTX 3060 Ti">
                               <div class="card-body">
                                 <h5 class="card-title">GeForce RTX 3060 Ti</h5>
                                 <p class="card-text">Potente GPU para juegos en 1440p con arquitectura Ampere y 8GB GDDR6.</p>
@@ -210,9 +181,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb4.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb4.jpg" class="card-img-top" alt="GeForce GTX 1660 Super">
                               <div class="card-body">
                                 <h5 class="card-title">GeForce GTX 1660 Super</h5>
                                 <p class="card-text">Gráfica económica ideal para eSports y juegos en 1080p.</p>
@@ -220,9 +191,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="GeForce GTX 1660 Super">
                               <div class="card-body">
                                 <h5 class="card-title">GeForce GTX 1660 Super</h5>
                                 <p class="card-text">Gráfica económica ideal para eSports y juegos en 1080p.</p>
@@ -233,12 +204,11 @@
                         </div>
                       </div>
 
-                      <!-- Slide 2 -->
                       <div class="carousel-item" data-bs-interval="5000">
                         <div class="row">
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb6.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb6.jpg" class="card-img-top" alt="GeForce RTX 4080">
                               <div class="card-body">
                                 <h5 class="card-title">GeForce RTX 4080</h5>
                                 <p class="card-text">Placa de video de alto rendimiento para 4K y ray tracing avanzado.</p>
@@ -246,9 +216,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb3.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb3.jpg" class="card-img-top" alt="GeForce RTX 2060">
                               <div class="card-body">
                                 <h5 class="card-title">GeForce RTX 2060</h5>
                                 <p class="card-text">Buena relación precio/rendimiento con soporte DLSS y Ray Tracing.</p>
@@ -256,9 +226,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb2.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb2.jpg" class="card-img-top" alt="GeForce GTX 1050 Ti">
                               <div class="card-body">
                                 <h5 class="card-title">GeForce GTX 1050 Ti</h5>
                                 <p class="card-text">Clásica GPU para juegos livianos y PCs de bajo consumo.</p>
@@ -269,10 +239,8 @@
                         </div>
                       </div>
                     </div>
-
-                            
                   </div>
-                </div>         
+                </div>        
               </div>
               
             </div>
@@ -283,27 +251,25 @@
             <div class="row align-items-center">
               <div class="col-md-3 mb-3">
                 <div class="card image" style="width: 100%;">
-                  <img src="imagenes/ryzen.webp" class="card-img-top" alt="...">
-                  <img src="imagenes/ryzen.webp" class="card-img-top SUPERPUESTO" alt="...">
+                  <img src="imagenes/ryzen.webp" class="card-img-top" alt="Logo Ryzen">
+                  <img src="imagenes/ryzen.webp" class="card-img-top SUPERPUESTO" alt="Logo Ryzen superpuesto">
                 </div>
               </div>
               <div class="col-md-9">
                 <div class="container mt-5 position-relative">
                   <div id="carouselExampleDark3" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     
-                    <!-- Indicadores -->
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
 
-                      <!-- Slide 1 -->
                       <div class="carousel-item active" data-bs-interval="5000">
                         <div class="row">
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb7.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb7.jpg" class="card-img-top" alt="Ryzen 5 5600X">
                               <div class="card-body">
                                 <h5 class="card-title">Ryzen 5 5600X</h5>
                                 <p class="card-text">Procesador de 6 núcleos con excelente rendimiento en gaming y multitarea.</p>
@@ -311,9 +277,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb8.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb8.jpg" class="card-img-top" alt="Ryzen 7 5800X">
                               <div class="card-body">
                                 <h5 class="card-title">Ryzen 7 5800X</h5>
                                 <p class="card-text">8 núcleos y 16 hilos para productividad, streaming y juegos.</p>
@@ -321,9 +287,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb9.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb9.jpg" class="card-img-top" alt="Ryzen 9 5900X">
                               <div class="card-body">
                                 <h5 class="card-title">Ryzen 9 5900X</h5>
                                 <p class="card-text">Ideal para entornos exigentes: diseño, edición, programación y más.</p>
@@ -334,12 +300,11 @@
                         </div>
                       </div>
 
-                      <!-- Slide 2 -->
                       <div class="carousel-item" data-bs-interval="5000">
                         <div class="row">
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb5.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb5.jpg" class="card-img-top" alt="Ryzen 5 7600">
                               <div class="card-body">
                                 <h5 class="card-title">Ryzen 5 7600</h5>
                                 <p class="card-text">Arquitectura Zen 4 con DDR5 y soporte PCIe 5.0 para futuro asegurado.</p>
@@ -347,9 +312,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3 ">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="Ryzen 3 3200G">
                               <div class="card-body">
                                 <h5 class="card-title">Ryzen 3 3200G</h5>
                                 <p class="card-text">Procesador económico con gráficos integrados Vega, ideal para oficina o estudio.</p>
@@ -357,9 +322,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 mb-3">
+                          <div class="col-md-4 mb-3 d-none d-md-flex justify-content-center">
                             <div class="card" style="width: 100%;">
-                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="...">
+                              <img src="imagenes/mb1.jpg" class="card-img-top" alt="Ryzen 7 7700X">
                               <div class="card-body">
                                 <h5 class="card-title">Ryzen 7 7700X</h5>
                                 <p class="card-text">Potente CPU para creadores de contenido y jugadores competitivos.</p>
@@ -370,11 +335,8 @@
                         </div>
                       </div>
                     </div>
-
-                           
-
                   </div>
-                </div>         
+                </div>        
               </div>
             </div>
           </div>
