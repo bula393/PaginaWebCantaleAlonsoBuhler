@@ -1,21 +1,21 @@
 const express = require('express');
 const mysql = require('mysql2');
 const bodyParser = require('body-parser');
-require('dotenv').config();
 
+const hostname = '127.0.0.1';
 const app = express();
 const port = 3000;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public')); // Para servir tu HTML
+app.use(express.static('public')); // Cambiar si tu HTML está en otra carpeta
 
 // Conexión a MySQL
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: '', // tu contraseña
-  database: 'nombre_de_tu_db'
+  user: 'alumno',
+  password: 'alumnoipm',
+  database: 'ComentariosDB'
 });
 
 db.connect((err) => {
@@ -25,17 +25,19 @@ db.connect((err) => {
 
 // Ruta para manejar el formulario
 app.post('/comentario', (req, res) => {
-  const { email, mensaje } = req.body;
+  const email = req.body.email;
+  const mensaje = req.body.mensaje;
 
-  const sql = 'INSERT INTO comentarios (mail, mensaje) VALUES (?, ?)';
-  db.query(sql, [email, mensaje], (err, result) => {
+  db.query(`INSERT INTO Comentarios (mail, mensaje) VALUES ("${email}","${mensaje}")`, (err, result) => {
     if (err) throw err;
     console.log('Comentario guardado:', result.insertId);
     res.send('Comentario recibido');
   });
+  db.end; 
+  console.log("funca");
 });
 
 // Iniciar servidor
-app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`);
+app.listen(port, hostname, () => {
+  console.log(`Servidor funcionando en http://${hostname}:${port}/`);
 });

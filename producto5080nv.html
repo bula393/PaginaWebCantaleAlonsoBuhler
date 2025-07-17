@@ -88,14 +88,14 @@
                     <button type="button" class="btn btn-primary bg-dark border-bottom border-body">Añadir al Carrito</button>
                     <hr class="my-4">
                     <h4>Comentarios</h4>
-                    <form action="/comentario" method="POST">
+                    <form action="http://127.0.0.1:3000/comentario" method="POST">
                         <div class="mb-3">
-                            <label for="email" class="form-label">Dirección de Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                            <label class="form-label">Dirección de Email</label>
+                            <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
                         </div>
                         <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label class="form-label">Mensaje</label>
+                            <textarea name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="mb-3">
                             <input type="submit" class="btn btn-primary bg-dark border-bottom border-body" value="Enviar Comentario">
